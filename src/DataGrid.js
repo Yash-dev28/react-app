@@ -19,10 +19,6 @@ const DataGrid = () => {
     setSortConfig({ key, direction });
   };
 
-  const handleSearch = (e) => {
-    setSearchTerm(e.target.value.toLowerCase());
-  };
-
   const sortedRecords = React.useMemo(() => {
     let sortableRecords = [...records];
     if (sortConfig.key !== null) {
@@ -57,19 +53,19 @@ const DataGrid = () => {
       <h2>DataGrid</h2>
       <input
         type="text"
-        placeholder="Search multiple customers..."
+        placeholder="Search customers..."
         value={searchTerm}
-        onChange={handleSearch}
+        onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
       />
       <table>
         <thead>
           <tr>
             <th>ID</th>
             <th onClick={() => handleSort('customer')}>
-                Customer
-                {sortConfig.key === 'lastSeen' && (
-                    sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
-                )}
+              Customer
+              {sortConfig.key === 'customer' && (
+                sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
+              )}
             </th>
             <th onClick={() => handleSort('lastSeen')}>
               Last Seen

@@ -50,16 +50,6 @@
       "segments": ["Food", "Grocery"]
     },
     {
-        "id": 1,
-        "customer": "Ramesh Sharma",
-        "lastSeen": "2023-06-16",
-        "orders": 15,
-        "totalSpent": 250000,
-        "latestPurchase": "2023-06-10",
-        "news": true,
-        "segments": ["Electronics", "Books"]
-    },
-    {
       "id": 6,
       "customer": "Sneha Mishra",
       "lastSeen": "2023-06-25",
