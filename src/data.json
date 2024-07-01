@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "customer": "Ramesh Sharma",
+      "lastSeen": "2023-06-15",
+      "orders": 5,
+      "totalSpent": 2500,
+      "latestPurchase": "2023-06-10",
+      "news": true,
+      "segments": ["Electronics", "Books"]
+    },
+    {
+      "id": 2,
+      "customer": "Priya Patel",
+      "lastSeen": "2023-06-20",
+      "orders": 8,
+      "totalSpent": 4500,
+      "latestPurchase": "2023-06-18",
+      "news": false,
+      "segments": ["Fashion", "Accessories"]
+    },
+    {
+      "id": 3,
+      "customer": "Amit Singh",
+      "lastSeen": "2023-06-12",
+      "orders": 3,
+      "totalSpent": 1800,
+      "latestPurchase": "2023-06-08",
+      "news": true,
+      "segments": ["Home Decor"]
+    },
+    {
+      "id": 4,
+      "customer": "Deepika Verma",
+      "lastSeen": "2023-06-22",
+      "orders": 6,
+      "totalSpent": 3200,
+      "latestPurchase": "2023-06-20",
+      "news": false,
+      "segments": ["Beauty", "Health"]
+    },
+    {
+      "id": 5,
+      "customer": "Sanjay Gupta",
+      "lastSeen": "2023-06-18",
+      "orders": 4,
+      "totalSpent": 2100,
+      "latestPurchase": "2023-06-15",
+      "news": true,
+      "segments": ["Food", "Grocery"]
+    },
+    {
+        "id": 1,
+        "customer": "Ramesh Sharma",
+        "lastSeen": "2023-06-16",
+        "orders": 15,
+        "totalSpent": 250000,
+        "latestPurchase": "2023-06-10",
+        "news": true,
+        "segments": ["Electronics", "Books"]
+    },
+    {
+      "id": 6,
+      "customer": "Sneha Mishra",
+      "lastSeen": "2023-06-25",
+      "orders": 7,
+      "totalSpent": 3800,
+      "latestPurchase": "2023-06-22",
+      "news": true,
+      "segments": ["Fashion", "Books"]
+    },
+    {
+      "id": 7,
+      "customer": "Kunal Shah",
+      "lastSeen": "2023-06-20",
+      "orders": 3,
+      "totalSpent": 1600,
+      "latestPurchase": "2023-06-18",
+      "news": false,
+      "segments": ["Electronics", "Home Decor"]
+    },
+    {
+      "id": 8,
+      "customer": "Ananya Reddy",
+      "lastSeen": "2023-06-23",
+      "orders": 5,
+      "totalSpent": 2900,
+      "latestPurchase": "2023-06-20",
+      "news": true,
+      "segments": ["Beauty", "Fashion"]
+    },
+    {
+      "id": 9,
+      "customer": "Vikram Patel",
+      "lastSeen": "2023-06-21",
+      "orders": 2,
+      "totalSpent": 1200,
+      "latestPurchase": "2023-06-18",
+      "news": false,
+      "segments": ["Grocery"]
+    },
+    {
+      "id": 10,
+      "customer": "Jyoti Khanna",
+      "lastSeen": "2023-06-19",
+      "orders": 4,
+      "totalSpent": 2100,
+      "latestPurchase": "2023-06-15",
+      "news": true,
+      "segments": ["Fashion", "Accessories"]
+    },
+    {
+      "id": 11,
+      "customer": "Gaurav Singhania",
+      "lastSeen": "2023-06-18",
+      "orders": 3,
+      "totalSpent": 1800,
+      "latestPurchase": "2023-06-15",
+      "news": false,
+      "segments": ["Electronics", "Books"]
+    },
+    {
+      "id": 12,
+      "customer": "Anjali Kapoor",
+      "lastSeen": "2023-06-22",
+      "orders": 6,
+      "totalSpent": 3200,
+      "latestPurchase": "2023-06-20",
+      "news": true,
+      "segments": ["Beauty", "Health"]
+    },
+    {
+      "id": 13,
+      "customer": "Rahul Sharma",
+      "lastSeen": "2023-06-18",
+      "orders": 4,
+      "totalSpent": 2100,
+      "latestPurchase": "2023-06-15",
+      "news": true,
+      "segments": ["Food", "Grocery"]
+    },
+    {
+      "id": 14,
+      "customer": "Neha Gupta",
+      "lastSeen": "2023-06-25",
+      "orders": 7,
+      "totalSpent": 3800,
+      "latestPurchase": "2023-06-22",
+      "news": true,
+      "segments": ["Fashion", "Books"]
+    },
+    {
+      "id": 15,
+      "customer": "Manoj Kumar",
+      "lastSeen": "2023-06-20",
+      "orders": 3,
+      "totalSpent": 1600,
+      "latestPurchase": "2023-06-18",
+      "news": false,
+      "segments": ["Electronics", "Home Decor"]
+    },
+    {
+      "id": 16,
+      "customer": "Kavita Rao",
+      "lastSeen": "2023-06-23",
+      "orders": 5,
+      "totalSpent": 2900,
+      "latestPurchase": "2023-06-20",
+      "news": true,
+      "segments": ["Beauty", "Fashion"]
+    },
+    {
+      "id": 17,
+      "customer": "Rajesh Verma",
+      "lastSeen": "2023-06-21",
+      "orders": 2,
+      "totalSpent": 1200,
+      "latestPurchase": "2023-06-18",
+      "news": false,
+      "segments": ["Grocery"]
+    },
+    {
+      "id": 18,
+      "customer": "Shalini Desai",
+      "lastSeen": "2023-06-19",
+      "orders": 4,
+      "totalSpent": 2100,
+      "latestPurchase": "2023-06-15",
+      "news": true,
+      "segments": ["Fashion", "Accessories"]
+    },
+    {
+      "id": 19,
+      "customer": "Alok Tiwari",
+      "lastSeen": "2023-06-18",
+      "orders": 3,
+      "totalSpent": 1800,
+      "latestPurchase": "2023-06-15",
+      "news": false,
+      "segments": ["Electronics", "Books"]
+    },
+    {
+      "id": 20,
+      "customer": "Geeta Sharma",
+      "lastSeen": "2023-06-22",
+      "orders": 6,
+      "totalSpent": 3200,
+      "latestPurchase": "2023-06-20",
+      "news": true,
+      "segments": ["Beauty", "Health"]
+    }
+  ]
+  

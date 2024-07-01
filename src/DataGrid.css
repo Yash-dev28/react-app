@@ -1,0 +1,60 @@
+/* DataGrid.css */
+
+.datagrid-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  input[type="text"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 90%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  th {
+    cursor: pointer;
+    background-color: #e9ecef;
+  }
+  
+  th:hover {
+    background-color: #ced4da;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  
