@@ -57,7 +57,7 @@ const DataGrid = () => {
       <h2>DataGrid</h2>
       <input
         type="text"
-        placeholder="Search customers..."
+        placeholder="Search multiple customers..."
         value={searchTerm}
         onChange={handleSearch}
       />
@@ -67,10 +67,10 @@ const DataGrid = () => {
             <th>ID</th>
             <th onClick={() => handleSort('customer')}>
                 Customer
-                {sortConfig.key === 'customer' && (
+                {sortConfig.key === 'lastSeen' && (
                     sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
                 )}
-                </th>
+            </th>
             <th onClick={() => handleSort('lastSeen')}>
               Last Seen
               {sortConfig.key === 'lastSeen' && (
