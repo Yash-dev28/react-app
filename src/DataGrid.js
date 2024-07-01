@@ -65,7 +65,12 @@ const DataGrid = () => {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Customer</th>
+            <th onClick={() => handleSort('customer')}>
+                Customer
+                {sortConfig.key === 'customer' && (
+                    sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
+                )}
+                </th>
             <th onClick={() => handleSort('lastSeen')}>
               Last Seen
               {sortConfig.key === 'lastSeen' && (
